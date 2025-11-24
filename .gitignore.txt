@@ -1,0 +1,48 @@
+# =============================
+# IDE
+# =============================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# =============================
+# Build directories
+# =============================
+cmake-build-debug/
+cmake-build-release/
+build/
+Debug/
+Release/
+
+# =============================
+# Executables and object files
+# =============================
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dll
+
+# =============================
+# Backup / temporary files
+# =============================
+*~
+*.swp
+*.swo
+*.log
+
+# =============================
+# MacOS
+# =============================
+.DS_Store
+
+# =============================
+# CMake generated files
+# =============================
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake

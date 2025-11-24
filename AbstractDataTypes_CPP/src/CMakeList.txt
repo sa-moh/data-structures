@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+project(OperatorOverloading)
+
+set(CMAKE_CXX_STANDARD 17)
+
+set(SOURCES
+    OperatorOverloading.cpp
+)
+
+
+add_executable(OperatorOverloading_exec ${SOURCES})
+
+target_include_directories(OperatorOverloading_exec PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

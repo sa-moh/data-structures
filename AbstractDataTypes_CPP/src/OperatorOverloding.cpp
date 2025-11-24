@@ -6,6 +6,18 @@
 #include "iostream"
 using namespace std;
 
+template <class T>
+class x{
+    int evalue;
+public:
+    x(int value){
+        evalue =  value;
+    }
+    bool operator < (const x& x)
+    {
+        return this->evalue < x.evalue;
+    }
+};
 int main(){
     cout << "hey";
 }

@@ -1,0 +1,2 @@
+add_executable(testFivaWayPartition testFivaWayPartition.cpp I.cpp)
+target_link_libraries(testFivaWayPartition) 
